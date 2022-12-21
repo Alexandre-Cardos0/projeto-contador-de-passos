@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie-edge">
+            <title>Modelo de Exercício</title>
+            <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contando Passos</h1>
+        </header>
+
+        <section>
+            <div>
+                <p>
+                    Inicio: <input id="numInicio" name="numInicio" type="number">
+                </p>
+                <p>
+                    Fim: <input id="numFim" name="numFim" type="number">
+                </p>
+            </div>
+            <div>
+                <p>
+                    Passo: <input id="numPasso" name="numPasso" type="number">
+                </p> 
+                <p>
+                    <input type="button" value="verificar" onclick="contarPasso()">
+                </p>   
+            </div>
+            <div id="res">Esperando dados... </div>
+        </section>
+
+        <footer>
+            <p>&copy; Alexandre Cardoso</p>
+            <p>github profile: https://github.com/Alexandre-Cardos0 </p>
+        </footer>
+        <script src="src_modelo.js"></script>
+    </body>
+</html>
